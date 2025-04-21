@@ -1,0 +1,25 @@
+button {
+  padding: 12px 25px;
+  font-size: 1.1em;
+  cursor: pointer;
+  background-color: mediumseagreen;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 15px;
+  transition: background-color 0.2s ease;
+}
+
+button.reset-button {
+  border: 1px solid white;
+  color: #000;
+  background-color: white;
+}
+
+button.reset-button:hover {
+  background-color: #ccc;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
